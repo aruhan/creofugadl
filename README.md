@@ -1,0 +1,2 @@
+# creofugadl
+A Creofuga downloader
