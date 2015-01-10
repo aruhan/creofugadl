@@ -1,0 +1,10 @@
+﻿<Window x:Class="CreofugaDL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Creofuga Downloader" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="BaseUrl" Height="23" Margin="27,80,23,0" Text="https://creofuga.net/audios/51878" ToolTip="ここにダウンロードしたい楽曲のアドレスを入れます" VerticalAlignment="Top" TextWrapping="Wrap"/>
+        <Button Content="Download" Margin="97,137,91,0" VerticalAlignment="Top" Click="Button_Click" Height="95" FontSize="36"/>
+        <Label Content="Creofuga Downloader" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Foreground="#09c1ff" Width="480"/>
+    </Grid>
+</Window>
